@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {0.1}\uppercase {Physics Motivation}}{3}{section.0.1}
+\contentsline {section}{\numberline {0.2}\uppercase {Neutrino oscillation framework}}{4}{section.0.2}
+\contentsline {section}{\numberline {0.3}\uppercase {T2K(-II) and NO$\nu $A experiments}}{20}{section.0.3}
+\contentsline {section}{\numberline {0.4}\uppercase {Sensitivity to CP-violation}}{24}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Constraint on $\theta _{13}$ from reactor}{24}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}The analysis method and results}{25}{subsection.0.4.2}
+\contentsline {section}{\numberline {0.5}\uppercase {Conclusions}}{28}{section.0.5}
