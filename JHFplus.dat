@@ -16,6 +16,7 @@
 #* %and have been kindly provided as machine readable file by T. Nakaya
 # 2016 flux (/cm^2/1e21pot/100MeV)
 #last update: 15/05/2018 by Ngoc Tran
+# JHFplus.dat
 #E(GeV)	nue		numu		mutau	anti-nue	anti-numu	anti-nutau
 
 0.05	1198.68		66694.7		0	152.853		70549.8		0

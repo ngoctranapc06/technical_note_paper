@@ -49,22 +49,22 @@ $version="3.0.0"
 
 nuflux(#NoVA)<
 	@flux_file="NOvAplus.dat"
-	@time = 2.4	/* years */
+	@time = 3.6	/* years */
 	@stored_muons = 10e20 /* POT yrs^-1 */
-	@norm = 6.47886918e-19
+	@norm = 4.9788e-19 /*6.47886918e-19*/
 >
 
 nuflux(#NoVAanti)<
 	@flux_file="NOvAminus.dat"
-	@time = 2.1	/* years */
+	@time = 3.6	/* years */
 	@stored_muons = 10e20 /* POT yrs^-1 */
-	@norm = 6.47886918e-19 
+	@norm = 4.9788e-19
 >
 
 
 /* ####### Detector settings ###### */
 
-$target_mass = 	        25.0	/* kt (fiducial mass) */
+$target_mass = 	   14    /* 25.0*/	/* kt (fiducial mass) */
 
 
  /* ####### Energy window ####### */
@@ -81,12 +81,12 @@ $bins = 		20
  * @energy_window in the rules).
  */
 
-$emin = 	        1	/* GeV */
-$emax = 	        3.5	/* GeV */
+$emin = 	        0.1	/* GeV */
+$emax = 	        9.1	/* GeV */
 
 $sampling_points = 		25
-$sampling_min =    		0.5	/* GeV */
-$sampling_max =         	4.0	/* GeV */
+$sampling_min =    		0.1	/* GeV */
+$sampling_max =         	9.1	/* GeV */
 
 
 /* ####### Baseline setting ####### */
@@ -99,7 +99,7 @@ $profiletype = 		3
  */
 
 $densitytab = 		{2.8} 
-$lengthtab = 		{812}	/* km */
+$lengthtab = 		{810}	/* km */
 
 
 /* ####### Technical information ####### */
@@ -172,58 +172,58 @@ channel(#nu_bar_e_signal)<
 /* ####### latest updated 30/05/18 by Ngoc Tran ##### */
  
 rule(#Nu_E_Appearance)<
- 	@signal = 0.62@#nu_e_signal
+ 	@signal = 0.61@#nu_e_signal
 	@signalerror = 0.02 : 0.025
 	
-	@background =  0.0058198@#nu_mu_CC : 0.0135492@#nu_mu_NC : 0.7346849@#nu_e_beam
+	@background =  0.0035548@#nu_mu_CC : 0.0174148@#nu_mu_NC : 0.2337558@#nu_e_beam
 	@backgrounderror = 0.02 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
 	
-	@energy_window = 1.0 : 3.5
+	@energy_window = 0.1 : 9.1   /*GeV*/
 >
 
 
 rule(#Nu_Mu_Disappearance)<
- 	@signal = 0.68@#nu_mu_CC
+ 	@signal = 0.3196@#nu_mu_CC /*0.499*/
 	@signalerror = 0.02 : 0.025
 	
-	@background =  0.0071031@#nu_mu_NC
+	@background =  0.01490177@#nu_mu_NC
 	@backgrounderror = 0.02 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
 	
-	@energy_window = 1.0 : 3.5
+	@energy_window = 0.1 : 9.1
 >
 
 
 rule(#Nu_E_Bar_Appearance)<
- 	@signal = 0.67@#nu_bar_e_signal
+ 	@signal = 0.7151@#nu_bar_e_signal
 	@signalerror = 0.02 : 0.025
 	
-	@background =  0.0058198@#nu_bar_mu_CC : 0.0135492@#nu_bar_mu_NC : 0.7346849@#nu_bar_e_beam
+	@background =  0.0029376@#nu_bar_mu_CC : 0.013003@#nu_bar_mu_NC : 0.2271349@#nu_bar_e_beam
 	@backgrounderror = 0.02 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
 	
-	@energy_window = 1.0 : 3.5
+	@energy_window = 0.1 : 9.1
 >
 
 
 rule(#Nu_Mu_Bar_Disappearance)<
- 	@signal = 0.62@#nu_bar_mu_CC
+ 	@signal = 0.3795@#nu_bar_mu_CC /*0.6848*/
 	@signalerror = 0.02 : 0.025
 	
-	@background =  0.006443@#nu_bar_mu_NC
+	@background =  0.0056013@#nu_bar_mu_NC
 	@backgrounderror = 0.02 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
 	
-	@energy_window = 1.0 : 3.5
+	@energy_window = 0.1 : 9.1
 >
 
 
