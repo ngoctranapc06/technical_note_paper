@@ -13,6 +13,9 @@
 \setlength{\topmargin}{-0.3cm}
 \renewcommand{\baselinestretch}{1.2}
 \setlength{\parskip}{0cm}
+\newcommand\brabar{\raisebox{-4.0pt}{\scalebox{.2}{
+\textbf{(}}}\raisebox{-4.0pt}{{\_}}\raisebox{-4.0pt}{\scalebox{.2}{\textbf{)
+}}}}
 
 %----------
 \usepackage{afterpage}
@@ -310,14 +313,14 @@ Then we can rewrite (\ref{35}) as
 && = 16Im\left[U^*_{\mu 1}U_{e 1}U_{\mu_3}U^*_{e_3}\right]   \sin\left(\frac{\Delta m^2_{21}L}{4E}\right)\sin\left(\frac{\Delta m^2_{31}L}{4E}\right)\sin\left(\frac{\Delta m^2_{32}L}{4E}\right)
   \end{eqnarray} \par
 
-The general form in term of oscillation parameters can be obtained as shown in Eq.~\ref{eq:3}. \textcolor{red}{The coefficients in the denominator should be 4 instead of 2?
+The general form in term of oscillation parameters can be obtained as shown in Eq.~\ref{eq:3}. \textcolor{red}{The coefficients in the denominator should be 4 instead of 2!
 %%there is no reason why dCP should appear along with theta_13. It can go with theta_12 or theta23.
 \noindent 
    \begin{align}\label{eq:3}
 % \text{CP violation term} &=&P(\nu_\alpha \rightarrow \nu_\beta)-P(\bar\nu_\alpha \rightarrow \bar\nu_\beta) \nonumber\\
 \mathcal{A}_{\text{CP}}=&P(\nu_\alpha \rightarrow \nu_\beta)-P(\bar\nu_\alpha \rightarrow \bar\nu_\beta) 
 = 4\sum_{j>i}\Im\left[U^*_{\alpha i}U_{\beta i}U_{\alpha_j}U^*_{\beta_j}\right]\sin\left(\frac{\Delta m^2_{ji}}{2E}L\right), \nonumber \\
-=&\pm 2 \delta_{\alpha \beta} \cos \theta_{13} \sin 2\theta_{12} \sin 2\theta_{23} \sin 2\theta_{13} \sin \delta_{CP} \sin \frac{\Delta m^2_{21}L}{2E}  \sin \frac{\Delta m^2_{32} L}{2E}  \sin \frac{\Delta m^2_{13} L }{2E}
+=&\pm 2 \delta_{\alpha \beta} \cos \theta_{13} \sin 2\theta_{12} \sin 2\theta_{23} \sin 2\theta_{13} \sin \delta_{CP} \sin \frac{\Delta m^2_{21}L}{4E}  \sin \frac{\Delta m^2_{32} L}{4E}  \sin \frac{\Delta m^2_{13} L }{4E}
    \end{align}}
 in which $\{\alpha, \beta\} = \{e, \mu, \tau\}$; $\{i, j\} = \{1, 2, 3\}$, $j > i$ and $\Delta m^2_{ji} = m^2_j - m^2_i$; the positive (negative) sign is applied based on (anti-) cyclic permutation of ordered flavor ($e,\mu,\tau$). Apparently CP violation can be measured via the neutrino oscillation phenomenon if only three mixing angles are non-zero. The up-to-date neutrino data shows that Nature supports this scenario and it opens the door to search CP violation in the lepton sector with neutrino oscillation measurements. This CP violation source might be a promising explanation for the matter asymmetry in the Universe. \par
 
@@ -632,7 +635,7 @@ At present, T2K and NOvA are two leading accelerator-based long baseline neutrin
 
  T2K (Tokai-to-Kamioka) \cite{Itow:2001ee} is an accelerator-based long-baseline neutrino oscillation experiment placed in Japan with three main complexes:  (i) the J-PARC accelerator, (ii) the near detector suite placed 280 m from the neutrino production target, and (iii) the far detector, Super-Kamiokande, situated 295 km away from target. The J-PARC, one of the most intense proton beam in the world, is used to produce a nearly pure $\bar{\nu}_{\mu}$ source. The near detector suite is designed to characterize the unoscillated neutrino beam while the far detector is used to observe the oscillation patterns. The primary goal of T2K is to observe oscillation from muon neutrinos to electron neutrinos, which has been achieved in 2013. With relatively large value of mixing angle $\theta_{13}$, the physics potential of T2K is revisited and CP violation search is placed as the central target. For the latest results ~\cite{Cao:201805}, based on a total exposure of $2.23\times 10^{21}$ POT, consisting of $1.47\times10^{21}$ POT in $\nu$-mode and $0.76\times10^{21}$ POT in $\bar{\nu}$-mode, T2K firstly reports that CP conserving value (0 and $\pi$) of $\delta_{CP}$ is out of the 2$\sigma$ C.L. range of the measurement for both normal and inverted mass hierarchies.  By the year 2021, with a fully approved exposure of $7.8 \times 10^{21}$ POT collected, T2K will have sensitivity to the CP-violating phase $\delta_{CP}$ at $90\%$ C.L. or higher over a significant range \cite{Abe:2014tzr}. To intensively explore CP violation in the lepton sector, T2K-II, extension of T2K operation up to 2026, is proposed to collect $20\times 10^{21}$ POT~\cite{Abe:2016tez}. This amount of data in combination with expected improvement in the neutrino beamline and neutrino oscillation analysis allows T2K to have 3$\sigma$ or higher significant sensitivity to CP violation. Also the oscillation parameters $\theta_{23}$ and $\Delta m^2_{31}$ can be measured at the unprecedented level.  \par
 \textbf{Rescaling T2K flux}\par 
-T2K flux in GLoBES which is corresponding to 2.0 degree off-axis is out of date. The new flux (50MeV wide bins) corresponding to actual 2.5 degree off-axis angle provided by Dr. Cao Son (KEK) is, however, different in format with default in GLObES (100MeV wide bins). We therefore have to rebin it in order to be consistant with GLoBES. The rebin flux is in 100MeV wide bins up to 10GeV. All fluxes are normalized to $1 \times 10^{21}$ protons delivered to the T2K production target. The code used to rebin flux from root file and then store in txt file is provided in \textcolor{red}{rebinflux.cxx}. \par 
+T2K flux in GLoBES which is corresponding to 2.0 degree off-axis is out of date. The new flux (50MeV wide bins) corresponding to actual 2.5 degree off-axis angle provided by Dr. Cao Son (KEK) is, however, different in format with default in GLoBES (100MeV wide bins). We therefore have to rebin it in order to be consistant with GLoBES. The rebin flux is in 100MeV wide bins up to 10GeV. All fluxes are normalized to $1 \times 10^{21}$ protons delivered to the T2K production target. The code used to rebin flux from root file and then store in txt file is provided in \textcolor{red}{rebinflux.cxx}. \par 
 
   \begin{figure}
    \minipage{0.485\textwidth}
@@ -652,130 +655,107 @@ T2K flux in GLoBES which is corresponding to 2.0 degree off-axis is out of date.
  \end{figure}
 
 
-In this study, we try to follow as closely as possible the paper. The event rates reconstructed from GLoBES for the case true $\delta_{CP} =  -\pi/2$ are shown in the Table \ref{tab:t2knue} and Table \ref{tab:t2knumu}. The channels $\bar{\nu}_\mu \rightarrow \bar{\nu}_e$ for $\nu$-mode, $\nu_\mu \rightarrow \nu_e$ for $\bar{\nu}$-mode in Table \ref{tab:t2knue}, and Beam CC $\bar{\nu}_\mu$ for $\nu$-mode, Beam CC $\nu_\mu$ for $\bar{\nu}$-mode in Table \ref{tab:t2knumu} are zero because they have not been included in GLoBES yet.  
+In this paper, we use GLoBES software package \cite{Huber:2002mx}  to study the physics potential of long-baseline neutrino experiments. For the inputs of T2K configuration in GloBES, we follow closely the information in the paper \cite{Abe:2016tez}. The neutrino fluxes for both neutrino-mode and antineutrino-mode operations are updated with the latest fluxes released by T2K collaboration. The full statistics of T2K-II is equivalent to 30$\times 10^{21}$ POT, which reflects the T2K-II prospect in improving the analysis with a factor of 50$\%$. The efficiencies for detecting $\nu_{e}$ and $\overline{\nu}_e$ signals are set to be $66.3\%$ and $69.7\%$ respectively while the efficiencies for detecting $\nu_{\mu}$ and $\overline{\nu}_{\mu}$ signals are 72.6$\%$ and 80.2$\%$, respectively. The event rates for T2K far detector reconstructed from GLoBES with our T2K-II setup for the cases of true $\delta_{CP} = 0,\ -\pi/2,\ +\pi/2$ are shown in the Table \ref{tab:t2knue} for $\overset{\brabar}{\nu}_{e}$ appearance samples and Table \ref{tab:t2knumu} for $\overset{\brabar}{\nu}_{\mu}$ disappearance samples. The  value here is consistent with  \cite{Abe:2016tez} at acceptable level. %Output values of the channels beam CC $\bar{\nu}_\mu$ for $\nu$-mode, beam CC $\nu_\mu$ for $\bar{\nu}$-mode in Table \ref{tab:t2knumu} are zero because these channels have not been implemented in GLoBES yet. The effect is expected to be small and we will improve this in the future.
+%http://ifirse.icise.vn/nugroup/dokuwiki/doku.php?id=globes&s[]=globes
+
 \begin{center}
-\captionof{table}{The $\nu_e$ and $\bar{\nu}_e$ event rates of T2K-II with $20 \times 10^{21}$ POT with $\delta_{CP} = -\pi/2$.}\label{tab:t2knue}
-\begin{tabular}{|c| c| c| c| c| c| c|}
+\captionof{table}{The $\nu_e$ and $\bar{\nu}_e$ event samples predicted to collect in T2K-II far detector with $30 \times 10^{21}$  POT, sharing same amount for neutrino-mode and antineutrino-mode operations, at three different values of  $\delta_{CP} = -\pi/2$, $0$, $+\pi/2$. The event rates are consistent with result shown in \cite{Abe:2016tez}.}\label{tab:t2knue}
+\begin{tabular}{|c| c| c| c| c| c| c| c|}
 \hline
-  &  Total & Signal & Signal  &  Beam CC   & Beam CC  & NC \\ 
-  &        & $\nu_\mu \rightarrow \nu_e$&$\bar{\nu}_\mu \rightarrow \bar{\nu}_e$ &   $\nu_e + \bar{\nu}_e$ &  $\nu_\mu + \bar{\nu}_\mu$ &  \\
+ &$\delta_{CP}$ &  Total & Signal & Signal  &  Beam CC   & Beam CC  & NC \\ 
+ & &        & $\nu_\mu \rightarrow \nu_e$&$\bar{\nu}_\mu \rightarrow \bar{\nu}_e$ &   $\nu_e + \bar{\nu}_e$ &  $\nu_\mu + \bar{\nu}_\mu$ &  \\
  \hline  
- $\nu$-mode &  \multirow{2}{*}{556.0} & \multirow{2}{*}{448.6} & \multirow{2}{*}{0.0} & \multirow{2}{*}{73.3} & \multirow{2}{*}{1.8} & \multirow{2}{*}{32.3} \\
- $\nu_e$ sample & &&&& &\\ 
-\hline 
-$\bar{\nu}$-mode &  \multirow{2}{*}{96.0} & \multirow{2}{*}{0.0} & \multirow{2}{*}{52.3}  & \multirow{2}{*}{29.2} & \multirow{2}{*}{0.4} & \multirow{2}{*}{14.1} \\
- $\bar{\nu}_e$ sample & &&&& &\\ 
-\hline 
+\multirow{3}{*}{ $\nu$-mode $\nu_e$ sample}& $-\pi/2$ &  558.8 & 448.6 & 2.8 & 73.3 & 1.8 & 32.3 \\
+
+ & 	0	 & 	466.3 & 354.9 	& 4.0		& 73.3	& 1.8		& 32.3\\ 
+ 
+ & $+\pi/2$ & 370.9 & 258.6	& 4.9		& 73.3	& 1.8		& 32.3\\ 
+ \hline
+ 
+ \multirow{3}{*}{ $\overline{\nu}$-mode $\overline{\nu}_e$ sample}& $-\pi/2$ & 115.8  & 19.8 & 52.3 & 29.2 & 0.4 & 14.1 \\
+
+ & 	0	 & 134.6	 & 16.2 	& 74.7		& 29.2	& 0.4		&14.1\\ 
+ 
+ & $+\pi/2$ & 149.3	 & 11.8	& 93.8		& 29.2	& 0.4		& 14.1\\ 
+ \hline
 \end{tabular} 
 \end{center}
 
 \vspace{0.5cm}
 \begin{center} 
-\captionof{table}{The $\nu_\mu$ and $\bar{\nu}_\mu$ event rates of T2K-II with $20 \times 10^{21}$($\nu$-mode:$\bar{\nu}$-mode = 1:1) POT  with $\delta_{CP} = -\pi/2$.}\label{tab:t2knumu}
-\begin{tabular}{|c| c| c| c| c| }
+\captionof{table}{The $\nu_\mu$ and $\bar{\nu}_\mu$ event samples predicted to collect in T2K-II far detector with $30 \times 10^{21}$ POT, sharing same amount of neutrino-mode and antineutrino-mode operations at three values of  $\delta_{CP} = -\pi/2$, $0$, $+\pi/2$. The event rates are consistent with result shown in \cite{Abe:2016tez}.}\label{tab:t2knumu}
+\begin{tabular}{|c| c| c| c| c| c| c| c|}
 \hline
-  &  Total & Beam CC  &  Beam CC   &   NC \\ 
-  &        & $\nu_\mu $ &   $ \bar{\nu}_\mu$ &    \\
- 
+  & $\delta_{CP}$& Total & Beam CC  &  Beam CC   & Beam CC & $\nu_\mu \rightarrow \nu_e$ +&   NC \\ 
+  &    &    & $\nu_\mu $ &   $ \bar{\nu}_\mu$ &  $\nu_e + \bar{\nu}_e$ & $\bar{\nu}_\mu \rightarrow \bar{\nu}_e$ &  \\
   \hline  
- $\nu$-mode & \multirow{2}{*}{2568.0}  & \multirow{2}{*}{2393.0} & \multirow{2}{*}{0.0} & \multirow{2}{*}{175.0} \\
- $\nu_\mu$ sample & &&&\\ 
-\hline 
-$\bar{\nu}$-mode &  \multirow{2}{*}{774.1} & \multirow{2}{*}{0.0} & \multirow{2}{*}{707.9} & \multirow{2}{*}{66.2} \\
- $\bar{\nu}_\mu$ sample  &&&&\\ 
-\hline 
+  
+  \multirow{3}{*}{ $\nu$-mode $\nu_{\mu}$ sample}& $-\pi/2$ &  2735.3 & 2393.3 & 158.2 & 1.6 & 7.2 & 175.0  \\
+
+ & 	0	 & 2737.0	 &  2392.4	& 157.8		& 1.6 & 10.2 & 175.0\\ 
+ 
+ & $+\pi/2$ & 2740.7	 &  2393.3	& 158.2		& 1.6 & 12.6 & 175.0\\ 
+ \hline
+
+  \multirow{3}{*}{ $\bar{\nu}$-mode $\overline{\nu}_{\mu}$ sample}& $-\pi/2$ &  1283.5 & 507.8 & 707.9 & 0.6 & 1.0 & 66.2  \\
+
+ & 	0	 & 1280.5	 & 506.8 	& 706.1		& 0.6 & 0.8 & 66.2\\ 
+ 
+ & $+\pi/2$ & 1283.1	 & 507.8	& 707.9		& 0.6 & 0.6 & 66.2\\ 
+ \hline
+
 \end{tabular} 
 \end{center}
 
-\noindent In addition, systematic uncertainties of T2K-II is anticipated to go down to $4\%$ compared with $5.5\% - 6.8\%$ of current level. This can be achieved by reducing errors from neutrino flux, neutrino interaction models and detector model uncertainties.
+\noindent  In addition, systematic uncertainties of all T2K-II signal samples are anticipated to go down to $4\%$ compared with $5.5\% - 6.8\%$ of current level. This can be achieved by reducing errors from neutrino fluxes, neutrino interaction models and detector model uncertainties. 
 
  %%TOO LONG FOR T2K experiment description
  %%We care about input we use for our analysis, not their detail.
  %%also highlight their latest result and improvement can be include in the future 
 
-
 %%%%%%%%%%%%%
 %%%%This is to describe NOvA
 %%%%%%%%%%%%%
-NOvA (NuMI Off-axis $\nu_e$ Appearance) experiment~\cite{Ayres:2004js} is an accelerator-based long-baseline neutrino experiment placed in United State. NOvA uses the intense and nearly pure $\bar{\nu}_{\mu}$ beam from NuMI (Neutrino at Main Injector), Fermilab  and study oscillations with two functionally identical detectors: near detector (0.3 kton) situated underground at Fermilab, Illinois and far detector (14 kton) installed on the surface in Ash River, Minesota, 810 km from the neutrino production target. The detectors are optimized for observing $\nu_e$ signal, and placed at an angular offset of 14 mrad in order to achieve a narrow neutrino spectrum with peak at 2 GeV and suppress the neutral current $\pi^0$ background. With 810 km baseline, the matter effect can change $\nu_{\mu}\rightarrow \nu_e$ appearance rate up to $\pm 30\%$. In 2017, with an equivalent exposure of $6.05\times 10^{20}$ POT, 33 $\nu_e$ candidate was observed, clearly excess from $8.2\pm 0.8$ background expected from MC. One of the most significant improvement in NOvA oscillation analysis is adopting convolutional visual network~\cite{Aurisano:2016jvx} for the event-by-event classification. The gain from this new approach for event selection is equivalent to 30$\%$ effectively statistic increase.
+NOvA (NuMI Off-axis $\nu_e$ Appearance) experiment~\cite{Ayres:2004js} is an accelerator-based long-baseline neutrino experiment placed in United State. NOvA uses the intense and nearly pure $\overset{\brabar}{\nu}_{\mu}$ beam from NuMI (Neutrino at Main Injector), Fermilab  and studies oscillations with two functionally identical detectors: near detector (0.3 kton) situated underground at Fermilab, Illinois and far detector (14 kton) installed on the surface in Ash River, Minesota, 810 km away from the neutrino production target. The detectors, are placed at an offset angle of 14 mrad from the average neutrino beam line in order to achieve a narrow neutrino spectrum with peak at 2 GeV and suppress the neutral current $\pi^0$ background. This configuration is optimized for observing $\nu_e$ signal. With 810 km baseline, the matter effect can change $\nu_{\mu}\rightarrow \nu_e$ appearance rate up to $\pm 30\%$. In 2017, with an equivalent exposure of $6.05\times 10^{20}$ POT, 33 $\nu_e$ candidate was observed, clearly excess from $8.2\pm 0.8$ background expected from MC. One of the major improvement in NOvA oscillation analysis is adopting machine learning algorithm, so-called Convolutional Visual Network~\cite{Aurisano:2016jvx} for the event-by-event classification of $\nu_e$ and $\overline{\nu}_e$. The gain from this new selection is equivalent to 30$\%$ effectively statistic increase. For the NOvA inputs, $61.0\%$ and $71.5\%$ signal efficiencies are used for selecting $\nu_e$ and $\overline{\nu}_e$ appearance samples, respectively. For the disappearance channels, the signal efficiencies for $\nu_{\mu}$ and $\overline{\nu}_{\mu}$ samples are  32.0$\%$ and 38.0$\%$, respectively. These number are based on the papers \cite{NOvA:2018gge} and \cite{sanchez_mayly_2018_1286758}. With an proposed operation up to the year 2024, NOvA is expected to accumulate a total exposure of $72 \times 10^{20}$ POT including $36\times 10^{20}$ in $\nu-$ mode operation and same amount for the $\bar{\nu}-$mode operation. The event rates for complete statistics of NOvA are shown in the Table \ref{tab:novanue}. In the NOvA analysis, the background from cosmic ray in the considering signal samples is significant due to the fact that the far detector is on the Earth surface. Since it is not easy to implement the cosmic ray flux in GloBES, this background is manually added into the $\nu_{\mu}$ beam neutral-current (NC) channel. The systematic uncertainty by the end of NO$\nu$A operation is assumed to be $5\%$ in GLoBES as it is provided. 
 
-
-We also update the event classification in GLoBES for NO$\nu$A from its latest announcement \cite{Adamson:2017gxd}. With an operation up to the year 2024, NOvA is expected to accommulate a total exposure of $53 \times 10^{20}$ POT. We define the event rates for full operation of NOvA as shown in the Table \ref{tab:novanue}. Here we omitted the $\nu_\tau$ CC and cosmic events channels since they have not been incorporated in GLoBES yet. The systematic uncertainty of NO$\nu$A is kept to be $5\%$ in GLoBES as it is provided.\par 
-NOvA event rates and efficiency for $8.85 \times 10^{20}$ POT, NH, $\delta_{CP} = -\pi/2$.\par
-$\bullet$ $\nu_e$ mode: efficiency = 0.62\par 
-$\bullet$ $\bar{\nu}_e$ mode: efficiency = 0.67\par 
-$\bullet$ $\nu_\mu$ mode: efficiency =0.68\par 
-$\bullet$ $\bar{\nu}_\mu$ mode: efficiency = 0.62\par 
 
 \begin{center}
-\captionof{table}{The $\nu_e$ and $\bar{\nu}_e$ event rates of NOvA with $8.85 \times 10^{21}$ POT with $\delta_{CP} = -\pi/2$.}\label{tab:novanue_1}
-\begin{tabular}{|c| c| c| c| c| c| }
+\captionof{table}{The $\nu_e$ and $\bar{\nu}_e$ event rates of full statistics of NOvA operation up to 2024 with $36\times 10^{20}$ in $\nu-$ mode and $36\times 10^{20}$ in $\bar{\nu}-$mode. The rates are calculated at  at three values of  $\delta_{CP} = -\pi/2$, $0$, $+\pi/2$.}\label{tab:novanue}
+\begin{tabular}{|c| c| c| c| c| c| c|}
 \hline
-&  Total & Signal & $\nu_\mu$ beam CC   & $\nu_\mu$ beam NC  & $\nu_e$ beam \\ 
+& $\delta_{CP}$ & Total & Signal & $\nu_\mu$ beam CC   & $\nu_\mu$ beam NC  & $\nu_e$ beam \\ 
  \hline  
- $\nu$-mode &  \multirow{2}{*}{} & \multirow{2}{*}{48.0} & \multirow{2}{*}{1.1} & \multirow{2}{*}{6.6} & \multirow{2}{*}{7.1} \\
- $\nu_e$ sample & &&& &\\ 
+\multirow{3}{*}{$\nu$-mode}  &$-\pi/2$& 266.1 & 192.4 & 5.7 & 39.5 & 28.5 \\
+ \multirow{3}{*}{$\nu_e$ sample}   & $0$ & 239.4 & 165.7 & 5.7 & 39.5 & 28.5 \\ 
+&$+\pi/2$&  195.6 & 121.9 & 5.7 & 39.5 & 28.5 \\
+
 \hline 
-$\bar{\nu}$-mode &  \multirow{2}{*}{} &\multirow{2}{*}{6.5} & \multirow{2}{*}{0.4} & \multirow{2}{*}{2.5}  & \multirow{2}{*}{2.7}  \\
- $\bar{\nu}_e$ sample & &&& &\\ 
+\multirow{3}{*}{$\bar{\nu}$-mode }&$-\pi/2$&  63 & 33.8 & 2.1 & 13  & 14.1 \\
+\multirow{3}{*}{ $\bar{\nu}_e$ sample}&0 & 78.9 & 49.7 & 2.1 & 13 & 14.1 \\ 
+& $+\pi/2$& 87.5 & 58.3 & 2.1 & 13  & 14.1  \\
+
 \hline 
 \end{tabular} 
 \end{center}
 
 \begin{center}
-\captionof{table}{The $\nu_\mu$ and $\bar{\nu}_\mu$ event rates of NOvA with $8.85 \times 10^{21}$ POT with $\delta_{CP} = -\pi/2$.}\label{tab:novanumu_1}
-\begin{tabular}{|c| c| c| }
+\captionof{table}{The $\nu_\mu$ and $\bar{\nu}_\mu$ event rates of NOvA with $36\times 10^{20}$ in $\nu-$ mode and $36\times 10^{20}$ in $\bar{\nu}-$mode. The rates are calculated at  at three values of  $\delta_{CP} = -\pi/2$, $0$, $+\pi/2$.}\label{tab:novanumu}
+\begin{tabular}{|c| c| c| c| c| c|}
 \hline
- & Signal & $\nu_\mu$ beam NC  \\ 
+& $\delta_{CP}$ & Total & Signal & $\nu_\mu$ beam NC \\ 
  \hline  
- $\nu$-mode &  \multirow{2}{*}{129.0} & \multirow{2}{*}{3.46}  \\
- $\nu_\mu$ sample &&\\ 
+  \multirow{3}{*}{ $\nu$-mode $\nu_\mu$ sample} & $-\pi/2$ & 546.3 & 512.5 & 33.8 \\
+  &$0$ & 541.9 & 508.1 & 33.8 \\ 
+  &$+\pi/2$ & 546.3 & 512.5 & 33.8 \\ 
+
 \hline 
-$\bar{\nu}$-mode &  \multirow{2}{*}{39.0} &\multirow{2}{*}{1.2}  \\
- $\bar{\nu}_\mu$ sample & &\\ 
-\hline 
-\end{tabular} 
-\end{center}
-
-
-
-
-
-
-\begin{center}
-\captionof{table}{The $\nu_e$ and $\bar{\nu}_e$ event rates of NOvA with $53 \times 10^{21}$ POT with $\delta_{CP} = -\pi/2$.}\label{tab:novanue}
-\begin{tabular}{|c| c| c| c| c| c| }
-\hline
-&  Total & Signal & $\nu_\mu$ beam CC   & $\nu_\mu$ beam NC  & $\nu_e$ beam \\ 
- \hline  
- $\nu$-mode &  \multirow{2}{*}{376.8} & \multirow{2}{*}{288.0} & \multirow{2}{*}{6.6} & \multirow{2}{*}{39.6} & \multirow{2}{*}{42.6} \\
- $\nu_e$ sample & &&& &\\ 
-\hline 
-$\bar{\nu}$-mode &  \multirow{2}{*}{72.4} &\multirow{2}{*}{38.8} & \multirow{2}{*}{2.4} & \multirow{2}{*}{15.0}  & \multirow{2}{*}{16.2}  \\
- $\bar{\nu}_e$ sample & &&& &\\ 
-\hline 
-\end{tabular} 
-\end{center}
-
-\begin{center}
-\captionof{table}{The $\nu_\mu$ and $\bar{\nu}_\mu$ event rates of NOvA with $53 \times 10^{21}$ POT with $\delta_{CP} = -\pi/2$.}\label{tab:novanumu}
-\begin{tabular}{|c| c| c| }
-\hline
- & Signal & $\nu_\mu$ beam NC  \\ 
- \hline  
- $\nu$-mode &  \multirow{2}{*}{774.0} & \multirow{2}{*}{20.8}  \\
- $\nu_\mu$ sample &&\\ 
-\hline 
-$\bar{\nu}$-mode &  \multirow{2}{*}{234.0} &\multirow{2}{*}{7.2}  \\
- $\bar{\nu}_\mu$ sample & &\\ 
+\multirow{3}{*}{ $\bar{\nu}$-mode $\bar{\nu}_\mu$ sample} &$-\pi/2$ & 276.9 & 271.3 & 5.6  \\
+  &$0$ & 275 & 269.4 & 5.6  \\ 
+    &$+\pi/2$ & 276.9 & 271.3 & 5.6  \\ 
 \hline 
 \end{tabular} 
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{\Mr{Sensitivity to CP-violation}}\label{sec:results}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-In this paper, we use GLoBES software package \cite{Huber:2002mx}  to study the physics potential of the T2K-II with updated constraint from reactor \cite{Cao:2016vwh} and NOvA event classification \cite{Adamson:2017gxd}. \par 
-%%%%%%%%%%%%%%%%%%%%
 \subsection{Constraint on $\theta_{13}$ from reactor}
 %%%%%%%%%%%%%%%%%%%%
 As mentioned before, determination of $\theta_{13}$ plays an important role in measuring $\delta_{CP}$. Current precision on $\sin^22\theta_{13}$ is $6\%$ \cite{An:2015rpe} with best fit $\sin^22\theta_{13} = 0.085$ \cite{Agashe:2014kda}. Daya Bay reactor experiment has recently approved that it can achieve $3\%$ precision on $\sin^22\theta_{13}$ by the year 2020 \cite{Cao:2016vwh}. We examine here the two above possible cases. \par 
@@ -797,7 +777,7 @@ The code to get simultanousely two plots in the same graph is provided in \par
      \begin{figure}
  	\centering
  	\includegraphics[scale=0.5]{theta13_precision} 
- 	\caption{\label{theta13} Precision of $\theta_{13}$  from reactor. The green line corresponds to 6\% precision and the red line corresponds to 3\% precision of the current best fit value of $\sin^{2}2\theta_{13}$. } 
+ 	\caption{\label{theta13} Precision of $\theta_{13}$  from reactor. The green line corresponds to 6\% precision and the red line corresponds to 3\% precision of the current best fit value of $\sin^{2}2\theta_{13}$.} 
  \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%
@@ -806,57 +786,47 @@ The code to get simultanousely two plots in the same graph is provided in \par
 %%%%%%%%%%%%%%%%%%%%
 %\subsection{NO$\nu$A event classification}
 %%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-\subsection{The analysis method and results}
-%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\Mr{Sensitivity to CP-violation}}\label{sec:results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The analysis method is followed as in the paper \cite{Abe:2014tzr}. The physics outcomes are based on the signal efficiency, background and systematic errors established for T2K-II \cite{Abe:2016tez} and NO$\nu$A \cite{Adamson:2017gxd} for both $\nu$-mode and $\bar{\nu}$-mode with normal mass hierarchy and $\delta_{CP} = - \pi/2$. The GLoBES package is used to combine the two experiments with constraining from reactor. At first, the minimizing $\Delta \chi^2$ to exclude $\delta_{CP} = 0$ and $\delta_{CP} = \pm 180^{o}$ are obtained individually. Their minimum values are then plotted as a function of true $\delta_{CP}$ in the meaning to exclude $\sin\delta_{CP} = 0$. All the plots are made for the case $\sin^2\theta_{23} = 0.5$ as close as the latest T2K result. The detail procedure is as follow:\par
-$\bullet$ The GLoBES files are provided to define the experiments: \textcolor{red}{T2K.glb, NOvA.glb} and \textcolor{red}{Reactor2.glb} are corresponding to T2K-II, NOvA and Reactor experiments, respectively.\par 
-$\bullet$ The execute file in GLoBES is \textcolor{red}{$deltacp\_proj\_wreactor.c$}. In this file, you can initialize individual experiment or conbined two or three experiments at section\par 
-\begin{center}
+At present landscape, the value of $\delta_{CP}$ is known with marginal significant. Thus we explore the sensitivity of T2K-II and NOvA experiment on full range of this parameter. At each given value of $\delta_{CP}$, the minimal $\Delta \chi^2$ to exclude $\delta_{CP} = 0$ and $\delta_{CP} = \pm 180^{\circ}$ are calculated. These values are then plotted as a function of true $\delta_{CP}$ in the meaning to exclude $\sin\delta_{CP} = 0$. For all calculations shown below, we assume that the neutrino mass hierarchy would be known by the end of T2K-II and NOvA operations and to be normal. In the future we will explore for the case in which the neutrino mass hierarchy is unknown. Fig.~\ref{fig:sent2knova}(a) shows that T2K-II and NOvA respectively can achieve 3$\sigma$ C.L. and 2$\sigma$ C.L. to exclude CP-conserving values with current precision of mixing angle $\theta_{13}$ from reactor-based experiments, that agree with their expectations in \cite{Abe:2016tez} and \cite{sanchez_mayly_2018_1286758}. Also the figure shows that the sensitivity to CP violation is increased when the ultimate constraint on $\theta_{13}$ from reactor-based experiments is taken into account. Particularly, when $\theta_{13}$ uncertainty reduces from 6$\%$ to 3$\%$, fractional region in which the CP conserving values (0 and $\pm \pi$) can be excluded at 3$\sigma$ C.L. increases from 39.9$\%$ to 42.0$\%$ for T2K-II experiment. For NOvA, the 2$\sigma$ C.L.-excluded factional region increases from 40.8$\%$ to 41.4$\%$ when the uncertainty of $\theta_{13}$ is reduced. When the T2K-II and NOvA signal samples are combined and if the true value of $\delta_{CP}$ is close to $-\pi/2$ as indicated by T2K result, the hypothesis of CP conservation in the lepton sector can be excluded at more than 4$\sigma$ with an fractional $\delta_{CP}$ region up to 32.4$\%$ as shown in Fig.~\ref{fig:sent2knova}(b).
 
-\textcolor{blue}{/* Initialize experiment */ \\
- glbInitExperiment("T2K.glb",$\&$glb$\_$experiment$\_$list[0],$\&$glb$\_$num$\_$of$\_$exps);}.
-\end{center} \par
-$\bullet$ In this analysis, we run GLoBES with $10^{o}$-step of \textcolor{blue}{true $\delta_{CP}$} from $-180^{o}$ to $180^{o}$.\par 
-$\bullet$ The result is exported in file \begin{center}\textcolor{red}{$deltacp\_proj\_wreactor.dat$} \end{center} 
-after running the \begin{center}\textcolor{red}{$deltacp\_proj\_wreactor.c$} \end{center} 
-The three-column output format is: first column corresponds to $\delta_{CP}$, the second corresponds to $\Delta \chi^2$ values for two-parameter correlation (minimizer over $\theta_{13}$ only), and the last one corresponds to $\Delta \chi^2$ values for all-parameter correlation (minimize over all but $\delta_{CP}$). To make plot, we choose the minimum value of the third column which is corresponding to each \textcolor{blue}{true $\delta_{CP}$} value:
-\begin{center} $\delta_{CP}$ \qquad $\Delta \chi^2_1$ \qquad $\Delta \chi^2_2$ \\
--180\qquad 35.2988\qquad \textcolor{red}{26.0074}\\
-0\qquad 33.1935\qquad \textcolor{red}{26.4975}\\
-180\qquad 35.2988 \qquad \textcolor{red}{26.0074} \end{center} 
-Three cases are demonstrated as: (1) Effect of constraint on $\theta_{13}$, (2) Effect of combined T2K-II and NOvA, and (3) Effect of reducing systematic uncertanties. 
-
-
-     \begin{figure}
+  \begin{figure}[H]
+   \minipage{0.485\textwidth}
  	\centering
- 	\includegraphics[scale=0.5]{improve_th13.pdf} 
- 	\caption{\label{fig3} Sensitivity to CP-violation as a function of true $\delta_{CP}$ for T2K-II and NOvA (solid red and blue lines, respectively), for T2K-II and NOvA with ultimate constraint on $\theta_{13}$ (dashed red and blue lines, respectively).} 
+ 	\includegraphics[width=7.5cm]{improve_th13.pdf} 
+ 	\caption*{}{(a)}
+	\label{fig:th13eff}
+ \endminipage
+ \hfill
+\quad
+ \minipage{0.485\textwidth}
+ \centering
+ \includegraphics[width=7.5cm]{improve_nova.pdf}
+ \caption*{}{(b)}
+ \label{fig:combine3react}
+ \endminipage
+  \caption{{\label{fig:sent2knova}} (a) Sensitivity to CP-violation as a function of true $\delta_{CP}$ for T2K-II and NOvA with $6\%$ precision on $sin^2{2\theta_{13}}$ (solid red and blue lines, respectively), for T2K-II and NOvA with $3\%$ precision on $sin^2{2\theta_{13}}$ (dashed red and blue lines, respectively).\\\hspace{\textwidth}
+  (b) Sensitivity to CP-violation as a function of true $\delta_{CP}$ for NOvA with $6\%$ precision on $sin^2{2\theta_{13}}$ (solid blue line), T2K-II with $6\%$ precision on $sin^2{2\theta_{13}}$ (solid red line) and T2K-II + NOvA with $3\%$ precision on $sin^2{2\theta_{13}}$ (solid black line).}
+ \hfill
  \end{figure}
  
-      \begin{figure}
- 	\centering
- 	\includegraphics[scale=0.5]{improve_nova.pdf} 
- 	\caption{\label{fig4} Sensitivity to CP-violation as a function of true $\delta_{CP}$ for NOvA (solid green lines), T2K-II (solid red line) and T2K-II + NOvA with ultimate constraint on $\theta_{13}$ (dashed blue line).} 
- \end{figure}
-
+At the present, the sensitivity of CP violation in both T2K and NOvA experiments are limited predominantly by the statistics. However around 2024 to 2026 where we expect that these two experiments collect their full statistics, impact of systematics on the CP violation measurement should be considered seriously. 
+In the above result, 4$\%$ and 5$\%$ uncertainties are assumed for the signal samples for T2K-II and NOvA respectively. We also check the scenario in which the uncertainties can be reduced to 2$\%$ level. The result is shown in Fig.~\ref{fig:ultisen}. Evidently improving the systematics raises significantly the level of sensitivity to CP violation. We can make discovery of CP violation at 5$\sigma$ C.L. with fractional regions of 31.2$\%$, 10.4$\%$ and 0$\%$ for 0.43, 0.5 and 0.6 of mixing angle $\sin^2\theta_{23}$, respectively.
 
   \begin{figure}
  	\centering
  	\includegraphics[scale=0.5]{improve_sys.pdf} 
- 	\caption{\label{fig5} Sensitivity to CP-violation as a function of true $\delta_{CP}$ for T2K-II + NO$\nu$A with expected sys. uncertainties (solid red line), and $2\%$ sys. uncertainties (dashed blue line).} 
+ 	\caption{\label{fig:ultisen} Sensitivity to CP-violation as a function of true $\delta_{CP}$ with sys. uncertainties of $4\%$ for T2K-II + $5\%$ for NOvA + ultimate reactor constraint (solid lines), and $2\%$ for T2K-II + $2\%$ for NOvA + ultimate reactor constraint (dashed lines). } 
  \end{figure}
 
-
-Fig. \ref{fig3}. shows the CP sensitivity ($\Delta \chi^2$ for resolving $\sin\delta_{CP}\not = 0$) plotted as a function of true $\delta_{CP}$ for T2K-II and NOvA (solid red and blue lines, respectively), for T2K-II and NOvA with ultimate constraint on $\theta_{13}$ (dashed red and blue lines, respectively). The study shows that by updating constraint on $\theta_{13}$ from reactor by the year 2020, the sensitivity will increase by $22\%$ - $28\%$ for NOvA and by $29\% - 37\%$ for T2K-II. \par 
-
-By combining with NOvA, the sensitivity can be achieved slightly near $5\sigma$ C.L. It will increase by $43\%$ - $46\%$ compared to T2K alone and by $213\% - 224\%$ compared to NOvA alone as showed in Fig. \ref{fig4}. \par 
-
-The Fig. \ref{fig5} presents the significance of improving systematic uncertainty. By assuming that the systematic uncertainties of both T2K-II and NO$\nu$A are simultanously equal to $2\%$, we pointed out that the sensitibity to CP-violation will be enlarged by $16\% - 18\%$.
 \section{\Mr{Conclusions}}
-In this paper, we have studied the sensitivity to CP-violation by combining the T2K-II and NO$\nu$A experiments with constraint from reactor. With this combination, the sensitivity will significantly increase to exceed $4\sigma$ C.L. The study shows the importance of constraint on $\theta_{13}$ and improvements in statistics and systematic uncertainties of each experiment independently as well as cooperation between the experiments.\par 
-In the near future, GLoBES will be improved by including new channels as mentioned in sections IV.2 and IV.3, and updating the latest flux as well as cross section of the two experiments. These may helps the prospective results to be closer with realistic experiments and can achieve higher sensitivity.\par 
+In this paper, we have studied the sensitivity to CP-violation by combining the experiments T2K-II, which is proposed to run up to 2026, and NO$\nu$A, which can run up to 2024, with constraint from reactor-based experiments. With this combination, the CP conservation in lepton sector can be excluded at $4\sigma$ C.L. significance if the true values of $\delta_{CP}$ is around $-\pi/2$ as indicated by recent T2K measurement. The study also shows that precision measurement of mixing angle $\theta_{13}$ from the reactor-based experiments and improvements in the systematic uncertainties of measurement  are crucial for the search of CP violation in the lepton sector. We can discovery CP violation at 5$\sigma$ C.L. significance for a particular range of its value if $\theta_{13}$ precision reaches to 3$\%$ and the systematic uncertainty reduces to 2$\%$ \par 
+In the near future, we will consider to improve this study for more realistic description of both T2K-II and NOvA experiments by including efficiency as function of energy, smearing matrixes between true neutrino energy and the reconstructed energy by experiments. Also adding measurements from atmospheric neutrino experiments such as Super-Kamiokande, IceCube, etc... is considered to improve our sensitivity to CP violation measurements.\par 
+
+\bibliographystyle{unsrt}
+\bibliography{reference}
 
 \begin{thebibliography}{9}
 %\cite{Cleveland:1998nv}

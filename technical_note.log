@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.9)  22 JUN 2018 08:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.9)  3 AUG 2018 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,7 +349,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 30.
+Package hyperref Info: Option `colorlinks' set `false' on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
@@ -734,21 +734,21 @@ LaTeX Warning: Label `Patrignani:2016xqp' multiply defined.
 )
 \openout1 = `technical_note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -773,7 +773,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks47
 )
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -782,9 +782,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count149
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./technical_note.out) (./technical_note.out)
 \@outlinefile=\write4
@@ -793,43 +793,43 @@ LaTeX Info: Redefining \nameref on input line 57.
 
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 71
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 74
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 71
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 74
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 71
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 74
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 71
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 74
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 71.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 71.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -837,7 +837,7 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
  (./technical_note.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -865,41 +865,41 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 83.
+(hyperref)                removing `\uppercase' on input line 86.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.4> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 90.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 90.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 93.
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7.4> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 90.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 93.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 90.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 93.
 
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 98.
+(hyperref)                removing `\uppercase' on input line 101.
 
 [4] [5] [6]
-Overfull \hbox (45.05966pt too wide) in paragraph at lines 224--224
+Overfull \hbox (45.05966pt too wide) in paragraph at lines 227--227
 [] 
  []
 
 [7]
-Overfull \hbox (14.30876pt too wide) in alignment at lines 264--271
+Overfull \hbox (14.30876pt too wide) in alignment at lines 267--274
  [][][] []
  []
 
 [8]
-Overfull \hbox (14.30876pt too wide) in alignment at lines 279--286
+Overfull \hbox (14.30876pt too wide) in alignment at lines 282--289
  [][][] []
  []
 
@@ -908,61 +908,61 @@ on.0.2.32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.334    \end{eqnarray}
+l.337    \end{eqnarray}
                        ] [11pdfTeX warning (ext4): destination with the same id
 entifier (name{equation.0.2.34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
+l.373 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{equation.0.2.34}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
+l.373 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{equation.0.2.34}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
+l.373 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{equation.0.2.34}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
+l.373 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{equation.0.2.34}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
+l.373 and $a = 2EV_{CC} = 2\sqrt{2}G_FEN_e$.\par
                                                 ] [12pdfTeX warning (ext4): des
 tination with the same identifier (name{equation.0.2.35}) has been already used
 , duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.402 \end{equation}
+l.405 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.2.37}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.402 \end{equation}
+l.405 \end{equation}
                     ]
-Overfull \hbox (48.74097pt too wide) in alignment at lines 404--409
+Overfull \hbox (48.74097pt too wide) in alignment at lines 407--412
  [][][] []
  []
 
 
-Overfull \hbox (27.1999pt too wide) in alignment at lines 412--415
+Overfull \hbox (27.1999pt too wide) in alignment at lines 415--418
  [][][] []
  []
 
@@ -971,50 +971,50 @@ Overfull \hbox (27.1999pt too wide) in alignment at lines 412--415
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.433 \end{eqnarray}
+l.436 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.2.38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.433 \end{eqnarray}
+l.436 \end{eqnarray}
                     ] [14pdfTeX warning (ext4): destination with the same ident
 ifier (name{equation.0.2.40}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.466 \end{eqnarray}
+l.469 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.2.41}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.466 \end{eqnarray}
+l.469 \end{eqnarray}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.0.2.41}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.468  \begin{eqnarray}
+l.471  \begin{eqnarray}
                        \label{68} \nonumberpdfTeX warning (ext4): destination w
 ith the same identifier (name{equation.0.2.41}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.468  \begin{eqnarray}
+l.471  \begin{eqnarray}
                        \label{68} \nonumberpdfTeX warning (ext4): destination w
 ith the same identifier (name{equation.0.2.41}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.468  \begin{eqnarray}
+l.471  \begin{eqnarray}
                        \label{68} \nonumberpdfTeX warning (ext4): destination w
 ith the same identifier (name{equation.0.2.41}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.468  \begin{eqnarray}
+l.471  \begin{eqnarray}
                        \label{68} \nonumber
-Overfull \hbox (35.3795pt too wide) in alignment at lines 474--479
+Overfull \hbox (35.3795pt too wide) in alignment at lines 477--482
  [][][] []
  []
 
@@ -1023,15 +1023,15 @@ Overfull \hbox (35.3795pt too wide) in alignment at lines 474--479
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.503 \end{eqnarray}
+l.506 \end{eqnarray}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.2.42}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.503 \end{eqnarray}
+l.506 \end{eqnarray}
                     ]
-Overfull \hbox (24.70732pt too wide) in alignment at lines 506--517
+Overfull \hbox (24.70732pt too wide) in alignment at lines 509--520
  [][][] []
  []
 
@@ -1040,32 +1040,32 @@ Overfull \hbox (24.70732pt too wide) in alignment at lines 506--517
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.527 \end{eqnarray}
+l.530 \end{eqnarray}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{equation.0.2.44}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.529  \begin{eqnarray}
+l.532  \begin{eqnarray}
                        \label{71} \nonumberpdfTeX warning (ext4): destination w
 ith the same identifier (name{equation.0.2.44}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.529  \begin{eqnarray}
+l.532  \begin{eqnarray}
                        \label{71} \nonumberpdfTeX warning (ext4): destination w
 ith the same identifier (name{equation.0.2.44}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.529  \begin{eqnarray}
+l.532  \begin{eqnarray}
                        \label{71} \nonumberpdfTeX warning (ext4): destination w
 ith the same identifier (name{equation.0.2.44}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.529  \begin{eqnarray}
+l.532  \begin{eqnarray}
                        \label{71} \nonumber
-Overfull \hbox (35.9675pt too wide) in alignment at lines 529--537
+Overfull \hbox (35.9675pt too wide) in alignment at lines 532--540
  [][][] []
  []
 
@@ -1074,9 +1074,9 @@ Overfull \hbox (35.9675pt too wide) in alignment at lines 529--537
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.557 \end{eqnarray}
+l.560 \end{eqnarray}
                     \par]
-Overfull \hbox (34.22897pt too wide) in paragraph at lines 582--583
+Overfull \hbox (34.22897pt too wide) in paragraph at lines 585--586
 []\OT1/ptm/m/n/12 For $[] \OMS/ztmcm/m/n/12 ^^\ \OT1/ztmcm/m/n/12 1$ \OT1/ptm/m
 /n/12 and $\OT1/ztmcm/m/n/12 ^^A\OML/ztmcm/m/it/12 m[] \OMS/ztmcm/m/n/12 ^^Y \O
 T1/ztmcm/m/n/12 ^^A\OML/ztmcm/m/it/12 m[]$\OT1/ptm/m/n/12 , you can make a re-p
@@ -1086,216 +1086,227 @@ lace-ment with: $\OT1/ztmcm/m/n/12 ^^A[] = [] ^^A[];  [] ^^A[] =
 [18] [19]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 600.
+(caption)                particular \caption on input line 603.
 See the caption package documentation for explanation.
 
-<prob_t2k_compare.pdf, id=247, 569.12625pt x 384.43625pt>
+<prob_t2k_compare.pdf, id=242, 569.12625pt x 384.43625pt>
 File: prob_t2k_compare.pdf Graphic file (type pdf)
 
 <use prob_t2k_compare.pdf>
-Package pdftex.def Info: prob_t2k_compare.pdf used on input line 613.
+Package pdftex.def Info: prob_t2k_compare.pdf used on input line 616.
 (pdftex.def)             Requested size: 213.39566pt x 144.14563pt.
 
-<prob_nova_compare.pdf, id=248, 569.12625pt x 384.43625pt>
+<prob_nova_compare.pdf, id=243, 569.12625pt x 384.43625pt>
 File: prob_nova_compare.pdf Graphic file (type pdf)
 
 <use prob_nova_compare.pdf>
-Package pdftex.def Info: prob_nova_compare.pdf used on input line 620.
+Package pdftex.def Info: prob_nova_compare.pdf used on input line 623.
 (pdftex.def)             Requested size: 213.39566pt x 144.14563pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 629.
+(hyperref)                removing `\uppercase' on input line 632.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 629.
+(hyperref)                removing `math shift' on input line 632.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 629.
+(hyperref)                removing `\nu' on input line 632.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 629.
+(hyperref)                removing `math shift' on input line 632.
 
 [20 <./prob_t2k_compare.pdf, page is rotated 90 degrees> <./prob_nova_compare.p
 df, page is rotated 90 degrees>]
-<t2kflux_minus_anti_numu.pdf, id=347, 569.12625pt x 384.43625pt>
+<t2kflux_minus_anti_numu.pdf, id=342, 569.12625pt x 384.43625pt>
 File: t2kflux_minus_anti_numu.pdf Graphic file (type pdf)
 
 <use t2kflux_minus_anti_numu.pdf>
-Package pdftex.def Info: t2kflux_minus_anti_numu.pdf used on input line 640.
+Package pdftex.def Info: t2kflux_minus_anti_numu.pdf used on input line 643.
 (pdftex.def)             Requested size: 213.39566pt x 144.14563pt.
 
-<t2kflux_plus_numu.pdf, id=348, 569.12625pt x 384.43625pt>
+<t2kflux_plus_numu.pdf, id=343, 569.12625pt x 384.43625pt>
 File: t2kflux_plus_numu.pdf Graphic file (type pdf)
 
 <use t2kflux_plus_numu.pdf>
-Package pdftex.def Info: t2kflux_plus_numu.pdf used on input line 647.
+Package pdftex.def Info: t2kflux_plus_numu.pdf used on input line 650.
 (pdftex.def)             Requested size: 213.39566pt x 144.14563pt.
+ [21]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 662.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (4.1218pt too wide) in paragraph at lines 663--682
+ [] 
+ []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 657.
+(caption)                particular \caption on input line 686.
 See the caption package documentation for explanation.
 
-[21]
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 674.
-See the caption package documentation for explanation.
+Overfull \hbox (34.06407pt too wide) in paragraph at lines 687--708
+ [] 
+ []
 
 [22 <./t2kflux_minus_anti_numu.pdf, page is rotated 90 degrees> <./t2kflux_plus
 _numu.pdf, page is rotated 90 degrees>]
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 711.
-See the caption package documentation for explanation.
+LaTeX Warning: Citation `NOvA:2018gge' on page 23 undefined on input line 719.
+
+
+LaTeX Warning: Citation `sanchez_mayly_2018_1286758' on page 23 undefined on in
+put line 719.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 726.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 746.
+(caption)                particular \caption on input line 723.
 See the caption package documentation for explanation.
 
 [23]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 761.
+(caption)                particular \caption on input line 742.
 See the caption package documentation for explanation.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 775.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 779.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 759.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 779.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 759.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 779.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 759.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 779.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 759.
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 779.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 779.
+(hyperref)                removing `math shift' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 779.
+(hyperref)                removing `\theta' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 779.
+(hyperref)                removing `subscript' on input line 759.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 779.
+(hyperref)                removing `math shift' on input line 759.
 
-
-Overfull \hbox (37.78902pt too wide) in paragraph at lines 794--794
+[24]
+Overfull \hbox (37.78902pt too wide) in paragraph at lines 774--774
 \OT1/ptm/m/n/12 and out-put file []$\OML/ztmcm/m/it/12 theta\OT1/ztmcm/m/n/12 1
 3[]\OML/ztmcm/m/it/12 proj[]reactor[]current:dat$[] \OT1/ptm/m/n/12 for $\OT1/z
 tmcm/m/n/12 6%$ \OT1/ptm/m/n/12 pre-ci-sion. Then run []$\OML/ztmcm/m/it/12 the
 ta\OT1/ztmcm/m/n/12 13[]\OML/ztmcm/m/it/12 proj[]reactor:c$[]
  []
 
-[24] <theta13_precision.pdf, id=484, 569.12625pt x 384.43625pt>
+<theta13_precision.pdf, id=476, 569.12625pt x 384.43625pt>
 File: theta13_precision.pdf Graphic file (type pdf)
 
 <use theta13_precision.pdf>
-Package pdftex.def Info: theta13_precision.pdf used on input line 799.
+Package pdftex.def Info: theta13_precision.pdf used on input line 779.
 (pdftex.def)             Requested size: 284.56242pt x 192.21765pt.
- [25 <./theta13_precision.pdf, page is rotated 90 degrees>] <improve_th13.pdf, 
-id=536, 569.12625pt x 384.43625pt>
-File: improve_th13.pdf Graphic file (type pdf)
 
-<use improve_th13.pdf>
-Package pdftex.def Info: improve_th13.pdf used on input line 834.
-(pdftex.def)             Requested size: 284.56242pt x 192.21765pt.
- <improve_nova.pdf, id=537, 569.12625pt x 384.43625pt>
-File: improve_nova.pdf Graphic file (type pdf)
-
-<use improve_nova.pdf>
-Package pdftex.def Info: improve_nova.pdf used on input line 840.
-(pdftex.def)             Requested size: 284.56242pt x 192.21765pt.
- <improve_sys.pdf, id=538, 569.12625pt x 384.43625pt>
-File: improve_sys.pdf Graphic file (type pdf)
-
-<use improve_sys.pdf>
-Package pdftex.def Info: improve_sys.pdf used on input line 847.
-(pdftex.def)             Requested size: 284.56242pt x 192.21765pt.
- [26 <./improve_th13.pdf, page is rotated 90 degrees>]
-[27 <./improve_nova.pdf, page is rotated 90 degrees> <./improve_sys.pdf, page i
-s rotated 90 degrees>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 857.
+(hyperref)                removing `\uppercase' on input line 790.
 
-[28]
-Underfull \hbox (badness 2781) in paragraph at lines 892--898
+
+LaTeX Warning: Citation `sanchez_mayly_2018_1286758' on page 25 undefined on in
+put line 793.
+
+[25 <./theta13_precision.pdf, page is rotated 90 degrees>]
+<improve_th13.pdf, id=530, 569.12625pt x 384.43625pt>
+File: improve_th13.pdf Graphic file (type pdf)
+ <use improve_th13.pdf>
+Package pdftex.def Info: improve_th13.pdf used on input line 798.
+(pdftex.def)             Requested size: 213.39566pt x 144.14563pt.
+
+<improve_nova.pdf, id=531, 569.12625pt x 384.43625pt>
+File: improve_nova.pdf Graphic file (type pdf)
+ <use improve_nova.pdf>
+Package pdftex.def Info: improve_nova.pdf used on input line 806.
+(pdftex.def)             Requested size: 213.39566pt x 144.14563pt.
+
+<improve_sys.pdf, id=533, 569.12625pt x 384.43625pt>
+File: improve_sys.pdf Graphic file (type pdf)
+ <use improve_sys.pdf>
+Package pdftex.def Info: improve_sys.pdf used on input line 820.
+(pdftex.def)             Requested size: 284.56242pt x 192.21765pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 824.
+
+[26 <./improve_th13.pdf, page is rotated 90 degrees> <./improve_nova.pdf, page 
+is rotated 90 degrees>]
+No file technical_note.bbl.
+[27 <./improve_sys.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 2781) in paragraph at lines 862--868
 []\OT1/ptm/m/n/12 Z. Maki, M. Nak-a-gawa and S. Sakata, Prog. Theor. Phys. \OT1
 /ptm/b/n/12 28\OT1/ptm/m/n/12 , 870 (1962).
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 910--917
+Underfull \hbox (badness 7081) in paragraph at lines 880--887
 []\OT1/ptm/m/n/12 K. Abe \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [T2K Col-lab-o
 -ra-tion], PTEP \OT1/ptm/b/n/12 2015\OT1/ptm/m/n/12 , no. 4, 043C01 (2015)
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 920--927
+Underfull \hbox (badness 1838) in paragraph at lines 890--897
 []\OT1/ptm/m/n/12 F. P. An \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [Daya Bay Co
 l-lab-o-ra-tion], Chin. Phys. C \OT1/ptm/b/n/12 37\OT1/ptm/m/n/12 , 011001 (201
 3)
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 932--939
+Underfull \hbox (badness 1509) in paragraph at lines 902--909
 []\OT1/ptm/m/n/12 J. K. Ahn \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [RENO Col-l
 ab-o-ra-tion], Phys. Rev. Lett. \OT1/ptm/b/n/12 108\OT1/ptm/m/n/12 , 191802 (20
 12)
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 943--950
+Underfull \hbox (badness 1173) in paragraph at lines 913--920
 []\OT1/ptm/m/n/12 Y. Abe \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [Dou-ble Chooz
  Col-lab-o-ra-tion], Phys. Rev. D \OT1/ptm/b/n/12 86\OT1/ptm/m/n/12 , 052008 (2
 012)
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 964--971
+Underfull \hbox (badness 5711) in paragraph at lines 934--941
 []\OT1/ptm/m/n/12 K. Abe \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [T2K Col-lab-o
 -ra-tion], PTEP \OT1/ptm/b/n/12 2015\OT1/ptm/m/n/12 , no. 4, 043C01 (2015)
  []
 
-[29
+[28
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Abe:2014
 tzr}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1008 
-       ]
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1030
+l.978 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 993--1000
 []\OT1/ptm/m/n/12 J. Cao and K. B. Luk, Nucl. Phys. B \OT1/ptm/b/n/12 908\OT1/p
 tm/m/n/12 , 62 (2016)
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1047--1053
+Underfull \hbox (badness 1371) in paragraph at lines 1017--1023
 []\OT1/ptm/m/n/12 K. A. Olive \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [Par-ti-c
 le Data Group], Chin. Phys. C \OT1/ptm/b/n/12 38\OT1/ptm/m/n/12 , 090001 (2014)
 .
@@ -1305,42 +1316,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.Patrigna
 ni:2016xqp}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1127 \bibitem{Patrignani:2016xqp}
+l.1097 \bibitem{Patrignani:2016xqp}
                                    
-Underfull \hbox (badness 4144) in paragraph at lines 1137--1144
+Underfull \hbox (badness 4144) in paragraph at lines 1107--1114
 []\OT1/ptm/m/n/12 K. Abe \OT1/ptm/m/it/12 et al. \OT1/ptm/m/n/12 [T2K Col-lab-o
 -ra-tion], Phys. Rev. Lett. \OT1/ptm/b/n/12 112\OT1/ptm/m/n/12 , 061802 (2014)
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 1156--1163
+Underfull \hbox (badness 5036) in paragraph at lines 1126--1133
 []\OT1/ptm/m/n/12 A. Au-risano \OT1/ptm/m/it/12 et al.\OT1/ptm/m/n/12 , JINST \
 OT1/ptm/b/n/12 11\OT1/ptm/m/n/12 , no. 09, P09001 (2016) doi:10.1088/1748-
  []
 
-[30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1167.
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1137.
  (./technical_note.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1137.
 
 Package rerunfilecheck Info: File `technical_note.out' has not changed.
-(rerunfilecheck)             Checksum: 6219E4AAA82C51075A22EEB9633A7B11;467.
+(rerunfilecheck)             Checksum: C2BCF8146068AC692FAADA1C485FAB88;383.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1137.
  ) 
 Here is how much of TeX's memory you used:
- 18611 strings out of 493029
- 336589 string characters out of 6136235
- 406456 words of memory out of 5000000
- 21595 multiletter control sequences out of 15000+600000
+ 18609 strings out of 493029
+ 336588 string characters out of 6136235
+ 407298 words of memory out of 5000000
+ 21597 multiletter control sequences out of 15000+600000
  76221 words of font info for 191 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,13n,54p,2029b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,2606b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1352,10 +1366,10 @@ rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
 ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on technical_note.pdf (30 pages, 321139 bytes).
+Output written on technical_note.pdf (29 pages, 322170 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 511 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 754 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

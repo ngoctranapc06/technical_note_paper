@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
   double theta12 = asin(sqrt(0.8704))/2;
   double theta13 = asin(sqrt(0.085))/2;
   double theta23 = asin(sqrt(0.5));//45.0 * M_PI/180.0;
-  double deltacp = -80 * M_PI/180.0;
+  double deltacp = -103.0* M_PI/180.0;
   double sdm = 7.6e-5;
   double ldm = 2.5e-3;
 
@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
       fprintf(outfile, "%g %g %g\n", this_delta*180.0/M_PI,  res, res2);//*180.0/M_PI
   }
   fclose(outfile);
- 
+  
   /* Destroy parameter and projection vector(s) */
   glbFreeParams(true_values);
   glbFreeParams(test_values);
@@ -147,5 +147,4 @@ int main(int argc, char *argv[])
 
   return 0;
 }
-
 

@@ -173,10 +173,10 @@ channel(#nu_bar_e_signal)<
  
 rule(#Nu_E_Appearance)<
  	@signal = 0.61@#nu_e_signal
-	@signalerror = 0.02 : 0.025
+	@signalerror = 0.05 : 0.025
 	
 	@background =  0.0035548@#nu_mu_CC : 0.0174148@#nu_mu_NC : 0.2337558@#nu_e_beam
-	@backgrounderror = 0.02 : 0.025
+	@backgrounderror = 0.05 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
@@ -187,10 +187,10 @@ rule(#Nu_E_Appearance)<
 
 rule(#Nu_Mu_Disappearance)<
  	@signal = 0.3196@#nu_mu_CC /*0.499*/
-	@signalerror = 0.02 : 0.025
+	@signalerror = 0.05 : 0.025
 	
 	@background =  0.01490177@#nu_mu_NC
-	@backgrounderror = 0.02 : 0.025
+	@backgrounderror = 0.05 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
@@ -201,10 +201,10 @@ rule(#Nu_Mu_Disappearance)<
 
 rule(#Nu_E_Bar_Appearance)<
  	@signal = 0.7151@#nu_bar_e_signal
-	@signalerror = 0.02 : 0.025
+	@signalerror = 0.05 : 0.025
 	
 	@background =  0.0029376@#nu_bar_mu_CC : 0.013003@#nu_bar_mu_NC : 0.2271349@#nu_bar_e_beam
-	@backgrounderror = 0.02 : 0.025
+	@backgrounderror = 0.05 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
@@ -215,10 +215,10 @@ rule(#Nu_E_Bar_Appearance)<
 
 rule(#Nu_Mu_Bar_Disappearance)<
  	@signal = 0.3795@#nu_bar_mu_CC /*0.6848*/
-	@signalerror = 0.02 : 0.025
+	@signalerror = 0.05 : 0.025
 	
 	@background =  0.0056013@#nu_bar_mu_NC
-	@backgrounderror = 0.02 : 0.025
+	@backgrounderror = 0.05 : 0.025
 		
 	@sys_on_function = "chiSpectrumCalib"
 	@sys_off_function = "chiNoSysSpectrum"
